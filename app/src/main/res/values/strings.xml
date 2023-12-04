@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">YHWH app</string>
+
+    <string name="motivation_quote_string">"Everything you've ever wanted is sitting on the other side of fear"
+
+        <b>\n\n - George Addair</b>
+    </string>
+
+    <string name="motivation_quote_string2">"The question isn't who is going to let me; it's who is going to stop me"
+
+        <b>\n\n - Ayn Rand</b>
+    </string>
+
+    <string name="motivation_quote_string3">"Every strike brings me closer to the next home run"
+
+        <b>\n\n - Babe Ruth</b>
+    </string>
+
+    <string name="motivation_quote_string4">"I have not failed. I've just found 10,000 ways that won't work"
+
+        <b>\n\n - Thomas A. Edison</b>
+    </string>
+
+    <string name="motivation_quote_string5">"Don’t worry about failure; you only have to be right once"
+
+        <b>\n\n - Drew Houston</b>
+    </string>
+
+    <string name="motivation_quote_string6">"You carry the passport to your own happiness"
+
+        <b>\n\n - Diane von Furstenberg</b>
+    </string>
+
+    <string name="motivation_quote_string7">"We can see through others only when we can see through ourselves."
+
+        <b>\n\n - Bruce Lee</b>
+    </string>
+
+    <string name="motivation_quote_string8">"The battles that count aren't the ones for gold medals. The struggles within yourself—the invisible, inevitable battles inside all of us—that's where it's at"
+
+        <b>\n\n - Jesse Owens</b>
+    </string>
+
+    <string name="motivation_quote_string9">"Strength does not come from physical capacity. It comes from an indomitable will"
+
+        <b>\n\n - Mahatma Gandhi</b>
+    </string>
+
+    <string name="motivation_quote_string10">"The best way to predict the future is to create it"
+
+        <b>\n\n - Abraham Lincoln</b>
+    </string>
+
+    <string name="motivation_quote_string11">"I don’t count my sit-ups. I only start counting when it starts hurting because they’re the only ones that count"
+
+        <b>\n\n -Muhammad Ali</b>
+    </string>
+
+    <string name="motivation_quote_string12">"When you hit failure, your workout has just begun"
+
+        <b>\n\n -Ronnie Coleman</b>
+    </string>
+    <string name="left"><![CDATA[<]]></string>
+    <string name="right"><![CDATA[>]]></string>
+    <string name="title_activity_login_one_test">Login_One_testActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

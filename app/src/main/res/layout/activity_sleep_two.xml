@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_gradient"
+    android:id="@+id/newnewlayoutmoving"
+    tools:context=".Sleep_TwoActivity">
+
+    <TextView
+        android:id="@+id/Frequenciestitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="679dp"
+        android:text="Frequencies"
+        android:textAlignment="center"
+        android:textColor="#0A7369"
+        android:textColorHighlight="#EAFF1A"
+        android:textColorHint="#79BC2C"
+        android:textColorLink="#0EC3DA"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="669dp"
+        android:backgroundTint="#FF9800"
+        android:contentDescription="HomeButton"
+        android:src="@drawable/baseline_home_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#2889D6"
+        android:text="Prevoius"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/button_417Hz"
+        android:layout_width="48dp"
+        android:layout_height="34dp"
+        android:backgroundTint="#10B5FF"
+        android:onClick="PlaySound"
+        android:text="417Hz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237" />
+
+    <Button
+        android:id="@+id/button_432Hz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A84D30"
+        android:onClick="PlaySound"
+        android:text="432Hz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <Button
+        android:id="@+id/button_528Hz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E6827B"
+        android:onClick="PlaySound"
+        android:text="528Hz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <Button
+        android:id="@+id/button_639Hz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DA8AE8"
+        android:onClick="PlaySound"
+        android:text="639Hz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <Button
+        android:id="@+id/button_741Hz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B0DD7B"
+        android:onClick="PlaySound"
+        android:text="741Hz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <Button
+        android:id="@+id/button_852Hz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0027FF"
+        android:onClick="PlaySound"
+        android:text="852Hz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="These frequencies are believed to create positive shifts for those in proximity to them. Albert Einstein once said, &quot;everything in our Universe is vibration.&quot; The atoms in our bodies, the molecules and atoms in inanimate objects, thoughts and sounds.  All things in our Universe are in motion, vibrating. Even the planet itself vibrates and resonates at its frequency. These sounds below will help with the spiritual switch, reduction of stress and increase of vibration. "
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="256dp"
+        android:layout_height="82dp"
+        android:text="417Hz: This frequency corresponds to the sacral chakra. The sacral chakra can get blocked by traumatic life events. Listening to this frequency can aid in unblocking this important energy centre.  This sound will help remove negative energy from your aura and environment, heal shame and restful sleep."
+        android:textAlignment="center"
+        android:textColor="#10B5FF"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="288dp"
+        android:layout_height="119dp"
+        android:text="432Hz: This frequency is the heartbeat of the Earth. some people believe that it's the frequency that's most in alignment with our planet. When we connect with this tone, we are connecting to the energy and vibration of the Universe. This frequency will heighten your intuition and connection with the Universe, help release emotional blockages of all kinds and reduce anxiety.  "
+        android:textAlignment="center"
+        android:textColor="#A84D30"
+        android:textSize="11sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="282dp"
+        android:layout_height="94dp"
+        android:text="528Hz:  This frequency is all about love. It's one of the most widely celebrated of the solfeggio frequencies and is associated with the solar plexus chakra.  This frequency will increase creativity, reduces stress and hormone level, Improves concentration and increase feelings of positivity and love."
+        android:textAlignment="center"
+        android:textColor="#E6827B"
+        android:textSize="11sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="273dp"
+        android:layout_height="83dp"
+        android:text="639Hz:  This frequency is the solfeggio frequency most associated with the heart chakra. a powerful tone that can unblock the heart chakra, leading to more peace and positivity. It can help facilitate connections between opposites, which means it could have the power to restore balance to broken relationships."
+        android:textAlignment="center"
+        android:textColor="#DA8AE8"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="242dp"
+        android:layout_height="82dp"
+        android:text="741Hz:  This frequency is associated with the throat chakra and is a great frequency to work with if you want to dispel negativity and open yourself to a pure expression of your highest self. It can heal emotional blockages and allow you to express yourself authentically, repelling anger, jealousy and lies."
+        android:textAlignment="center"
+        android:textColor="#B0DD7B"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="250dp"
+        android:layout_height="108dp"
+        android:text="852Hz:  This frequency is associated with the third eye chakra. As such, it's said to hold the power of awakening intuition and enhancing a positive connection to your higher self. It can facilitate a connection to your higher self and the ability to access your inner guidance. It can help you return to the spiritual order,  help you cut through illusions and see the reality of situations."
+        android:textAlignment="center"
+        android:textColor="#0027FF"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

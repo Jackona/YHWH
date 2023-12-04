@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2"
+    tools:context=".Yoga_TwoActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="669dp"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="HomeButton"
+        android:src="@drawable/baseline_home_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="116dp"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="511dp"
+        android:src="@drawable/standinghalfforwardbend" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="145dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="416dp"
+        android:src="@drawable/headtokneeyoga" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="135dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="324dp"
+        android:src="@drawable/coww" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="137dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="223dp"
+        android:src="@drawable/upwarddogg" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="146dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="505dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="138dp"
+        android:src="@drawable/highlunge" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="119dp"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="49dp"
+        android:src="@drawable/ysquat" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="329dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Prevoius"
+        android:textSize="8sp" />
+
+</RelativeLayout>

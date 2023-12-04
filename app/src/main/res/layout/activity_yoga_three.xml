@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mdsbg"
+    tools:context=".Yoga_threeActivity">
+
+    <TextView
+        android:id="@+id/textView171"
+        android:layout_width="393dp"
+        android:layout_height="45dp"
+        android:text="The video will be around 10 to 20 minutes to help you with yoga, stretching and mental stress, enjoy the yoga."
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textColorHighlight="#9C27B0"
+        android:textColorHint="#CDDC39"
+        android:textColorLink="#FF9800"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <TextView
+        android:id="@+id/textView170"
+        android:layout_width="393dp"
+        android:layout_height="45dp"
+        android:text="The videos will start for beginners, and then over the weeks will we up the workouts and flexibility."
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textColorHighlight="#9C27B0"
+        android:textColorHint="#CDDC39"
+        android:textColorLink="#FF9800"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="393dp"
+        android:layout_height="45dp"
+        android:text="Hi, I'm happy to be working with YHWH to bring you weekly yoga videos."
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textColorHighlight="#9C27B0"
+        android:textColorHint="#CDDC39"
+        android:textColorLink="#FF9800"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <TextView
+        android:id="@+id/textView168"
+        android:layout_width="359dp"
+        android:layout_height="30dp"
+        android:text="Our yoga special bought to you by Sarah Beth Yoga"
+        android:textAlignment="gravity"
+        android:textColor="#9C27B0"
+        android:textColorHighlight="#9C27B0"
+        android:textColorHint="#CDDC39"
+        android:textColorLink="#FF9800"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/textView166"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yoga"
+        android:textAlignment="gravity"
+        android:textColor="#F44336"
+        android:textColorHighlight="#9C27B0"
+        android:textColorHint="#CDDC39"
+        android:textColorLink="#FF9800"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <VideoView
+        android:id="@+id/tenminyoga"
+        android:layout_width="273dp"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:text="Previous Page"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageButton
+        android:id="@+id/ibtny2h2"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:contentDescription="yogatohome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/baseline_home_p" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="114dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F44336"
+        android:text="Next Page"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.767"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

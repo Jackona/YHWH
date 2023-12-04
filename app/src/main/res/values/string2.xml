@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name1">YHWH app</string>
+
+    <string name="Philosophy_quote_string">"Happiness is the meaning and the purpose of life, the whole aim and end of human existence"
+
+        <b>\n\n - Aristotle </b>
+    </string>
+
+    <string name="Philosophy_quote_string2">"The secret of happiness, you see is not found in seeking more, but in developing the capacity to enjoy less"
+
+        <b>\n\n - Socrates </b>
+    </string>
+
+    <string name="Philosophy_quote_string3">"The greatest blessings of mankind are within us and within our reach. A wise man is content with his lot, whatever it may be, without wishing for what he has not"
+
+        <b>\n\n - Seneca</b>
+    </string>
+
+    <string name="Philosophy_quote_string4">"If you hate a person, then you’re defeated by them"
+
+        <b>\n\n - Confucius </b>
+    </string>
+
+    <string name="Philosophy_quote_string5">"Life exists only at this very moment, and in this moment it is infinite and eternal, for the present moment is infinitely small; before we can measure it, it has gone, and yet it exists forever"
+
+        <b>\n\n - Alan Watts </b>
+    </string>
+
+    <string name="Philosophy_quote_string6">"If I cannot do great things, I can do small things in a great way"
+
+        <b>\n\n - Dr. Martin Luther King Jr </b>
+    </string>
+
+    <string name="Philosophy_quote_string7">"Love is born into every human being; it calls back the halves of our original nature together; it tries to make one out of two and heal the wound of human nature"
+
+        <b>\n\n - Plato </b>
+    </string>
+
+    <string name="Philosophy_quote_string8">"I see all this potential, and I see squandering. God damn it, an entire generation pumping gas, waiting tables; slaves with white collars. Advertising has us chasing cars and clothes, working jobs we hate so we can buy shit we don't need. We're the middle children of history, man. No purpose or place. We have no Great War. No Great Depression. Our Great War's a spiritual war, our Great Depression is our lives."
+
+        <b>\n\n - Tyler Durden </b>
+    </string>
+
+    <string name="Philosophy_quote_string9">"You have power over your mind – not outside events. Realize this, and you will find strength"
+
+        <b>\n\n - Marcus Aurelius </b>
+    </string>
+
+    <string name="Philosophy_quote_string10">"Man is not worried by real problems so much as by his imagined anxieties about real problems."
+
+        <b>\n\n - Epictetus </b>
+    </string>
+
+    <string name="Philosophy_quote_string11">"It’s not because things are difficult that we dare not venture. It’s because we dare not venture that they are difficult"
+
+        <b>\n\n - Seneca </b>
+    </string>
+
+    <string name="Philosophy_quote_string12">"I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion"
+
+        <b>\n\n - Alexander The Great  </b>
+    </string>
+
+
+</resources>

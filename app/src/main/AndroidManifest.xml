@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/yhwhlogopng"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/yhwhlogopng"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YHWHApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".todolistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Yoga_threeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Yoga_OneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".testActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_twoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Signup_One_testActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Calendar_calActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_PageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sun_healthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sat_healthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Fri_healthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Thu_healthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wed_healthActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".tue_healthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Health_MondayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sleep_TwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Yoga_TwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhilosophyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HealthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SleepActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpiritualityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MotivationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YogaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FitnessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_One_testActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

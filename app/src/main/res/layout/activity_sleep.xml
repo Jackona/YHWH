@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/newmovinglayout"
+    tools:context=".SleepActivity">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A1CD6D"
+        android:text="Next Page"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#E91E63"
+        android:contentDescription="HomeButton"
+        android:src="@drawable/baseline_home_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/button_remsleep"
+        android:layout_width="93dp"
+        android:layout_height="77dp"
+
+        android:backgroundTint="#8BC34A"
+        android:onClick="PlaySound"
+        android:text="Rem Sleep"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <Button
+        android:id="@+id/button_deepsleep"
+        android:layout_width="78dp"
+        android:layout_height="57dp"
+
+        android:backgroundTint="#278DBC"
+        android:onClick="PlaySound"
+        android:text="Deep Sleep"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <Button
+        android:id="@+id/button_littlenap"
+        android:layout_width="77dp"
+        android:layout_height="48dp"
+                android:backgroundTint="#E6827B"
+        android:onClick="PlaySound"
+        android:text="Little Nap"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <Button
+        android:id="@+id/button_powernap"
+        android:layout_width="82dp"
+        android:layout_height="50dp"
+
+        android:backgroundTint="#E19A31"
+        android:onClick="PlaySound"
+        android:text="Power Nap"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <Button
+        android:id="@+id/button_moonbeach"
+        android:layout_width="86dp"
+        android:layout_height="52dp"
+
+        android:backgroundTint="#ECE5AD"
+        android:onClick="PlaySound"
+        android:text="Moon Beach"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <Button
+        android:id="@+id/button_sivandasleep"
+        android:layout_width="104dp"
+        android:layout_height="49dp"
+
+        android:backgroundTint="#C95BDC"
+        android:onClick="PlaySound"
+        android:text="Sivanda Sleep"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <TextView
+        android:id="@+id/sleeptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="679dp"
+        android:text="Sleep"
+        android:textAlignment="center"
+        android:textColor="#256191"
+        android:textColorHighlight="#EAFF1A"
+        android:textColorHint="#79BC2C"
+        android:textColorLink="#0EC3DA"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="323dp"
+        android:layout_height="96dp"
+        android:text="Sleep is important in our lives and to have a healthy one is even better. Having, a great sleep schedule can improve your well-being. To build a strong sleeping structure wake up and go to bed at the same time every day, what this will do is your natural clock from within will start to understand your sleep schedule. The first couple of days will be hard to hard but after a week your sleeping pattern should be reformed and you'll be living very differently because your energy levels will be increased from the week before. "
+        android:textAlignment="center"
+        android:textColor="#490E53"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="277dp"
+        android:layout_height="95dp"
+        android:text="Rem Sleep: This sound will be great just before bed as the Theta soundwaves will ascend you to be in a peaceful and restorative sleep, meditation and relaxation. The sound is played at 432Hz and this will help in releasing stress and tension from your body and mind. This will help you sleep the best way as this sound help in releasing negative energy. the more will release negative energy, the next day will be more clear for you to enjoy your life. "
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="241dp"
+        android:layout_height="68dp"
+        android:text="Deep Sleep: This 10-minute sound is an extremely powerful brainwave and will help you with sleep as it puts you into a relaxing sleep state. With this sound your dreams will be more clear and so will your sleeping."
+        android:textAlignment="center"
+        android:textColor="#278DBC"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="239dp"
+        android:layout_height="54dp"
+        android:text="Little Nap: If you are looking for a little nap during the day to help will you progress on that day. This special 10-minute beautiful relaxation music to help you quickly relax and still your mind and body."
+        android:textAlignment="center"
+        android:textColor="#E6827B"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="255dp"
+        android:layout_height="88dp"
+        android:text="Power Nap: *HEADPHONES are REQUIRED* This binaural beat will put you into a REM state meaning that throughout the 10 minutes, you'll be in a Theta brain state and then as the Hz increases you'll be going upwards to an Alpha brain state. This will make you relaxed and focused as this will reduce stress and you'll be able to have maintainable positive thinking. "
+        android:textAlignment="center"
+        android:textColor="#E19A31"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="230dp"
+        android:layout_height="99dp"
+        android:text="Moon Beach: This sound will teleport you to a tropical beach where the ocean waves will lower your stress, raise your immune system and make you relaxed. This sound is played at 528Hz and Hz is known as the miracle tone or the love frequency, as this will repair your human DNA to its original, perfect state and stabilizes your mental condition. "
+        android:textAlignment="center"
+        android:textColor="#ECE5AD"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="228dp"
+        android:layout_height="99dp"
+        android:text="Sivanda Sleep: A Beautiful 10-minute of relaxing music for stress relief. This instrumental music works well as sleep music, ambient study music, meditation music, Swami Sivananda Yoga, Kapalbhati, Inner Engineering or relaxation music. Playing my ambient music provides soothing relaxation and makes one feel as if they are listening to relaxing spa music."
+        android:textAlignment="center"
+        android:textColor="#C95BDC"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
